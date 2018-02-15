@@ -102,7 +102,7 @@ Here is an example that walks you through on how to enable Contoso_Extension, a 
     MsPortalFx.Base.Security.getAuthorizationToken({ resourceName: "graph" });
 
     MsPortalFx.Base.Net.ajax({
-        setAuthorizationHeader: { resourceName: "graph" }
+n        setAuthorizationHeader: { resourceName: "graph" }
     });
 
     new MsPortalFx.ViewModels.Controls.FileDownload.ViewModel(
@@ -153,7 +153,7 @@ The workflow in this case will be a little different from the one we described o
     }
 ```
 
-Sample code for exchanging toke:
+Sample code for exchanging token:
 
 Add an extra parameter to ajax calls (setAuthorizationHeader = { resourceName: "self" }
 
