@@ -153,7 +153,7 @@ The workflow in this case will be a little different from the one we described o
     }
 ```
 
-Sample code for exchanging toke:
+Sample code for exchanging token:
 
 Add an extra parameter to ajax calls (setAuthorizationHeader = { resourceName: "self" }
 
